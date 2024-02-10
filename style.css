@@ -1,0 +1,89 @@
+body {
+    background-color: #FFDEE3;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.valantine {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:600px;
+    width: inherit;
+    margin: 20px 30px;
+    transition: transform 0.5s ease;
+    z-index: 10;
+    animation: ballons 4s ease-in-out infinite;
+    transform-origin: bottom center;
+}
+
+@keyframes ballons {
+    0%,100% {
+        transform: translateY(0) ;
+    }
+
+    50% {
+        transform: translateY(-10px) ;
+    }
+}
+
+
+
+
+video {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container-2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:600px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.buttons {
+    margin:30px;
+
+}
+
+button{
+    position: absolute;
+    margin:20px;  
+    width:100px;
+    height:30px;
+    border-radius:30px;
+    background: lightgreen;
+    cursor: pointer;
+}
+
+button:nth-child(1){
+    margin-left: -100px;
+}
+
+button:nth-child(2){
+    margin-right: -100px;
+    background: red;
+}
+
+.question{
+    color:deeppink;
+}
+
+.heart {
+    --c: red;
+    display: inline-block;
+    margin: 20px 30px;
+    width: 100px;
+    aspect-ratio: 1;
+    background: radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%), radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%), conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) bottom/100% 50% no-repeat;
+    animation: ballons 4s ease-in-out infinite;
+}
