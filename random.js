@@ -15,7 +15,7 @@ yesBtn.addEventListener('click', () => {
 });
 
 noBtn.addEventListener('mouseover', () =>{
-  pic.src ='Shot Sad Sticker - Shot Sad Cat - Discover & Share GIFs.gif';
+  pic.src ='cat_gun.gif';
   question.innerHTML = 'Please do not do this to me';
 
   const i = Math.floor(Math.random() * (valantineRect.width - noBtnRect.width)) + 1;
