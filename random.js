@@ -8,7 +8,7 @@ const valantineRect = valantine.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', () => {
-     question.innerHTML = 'Yayy. I Love You';
+     question.innerHTML = "Yayy. I Love You, if bendilapho I would say see you on the 14th but I can't. I promise I will make it up to you when I see you again";
      pic.src = 'Cute Bears Love Sticker - Cute Bears Love - Discover & Share GIFs (1).gif';
      yesBtn.parentNode.removeChild(yesBtn);
      noBtn.parentNode.removeChild(noBtn);
