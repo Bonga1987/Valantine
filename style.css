@@ -18,24 +18,9 @@ body {
     transform-origin: bottom center;
 }
 
-@keyframes ballons {
-    0%,100% {
-        transform: translateY(0) ;
-    }
-
-    50% {
-        transform: translateY(-10px) ;
-    }
-}
 
 
 
-
-video {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
 
 .container-2{
     display:flex;
@@ -52,7 +37,6 @@ img {
 
 .buttons {
     margin:30px;
-
 }
 
 button{
@@ -86,4 +70,34 @@ button:nth-child(2){
     aspect-ratio: 1;
     background: radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%), radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%), conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) bottom/100% 50% no-repeat;
     animation: ballons 4s ease-in-out infinite;
+}
+
+
+@media (max-width:200px){
+    img{
+     width: 50px;
+     height: 50px;
+ 
+    }
+ 
+    button{
+     width:50px;
+     height:20px;
+     
+    }
+ 
+    button:nth-child(1){
+        margin-left: -60px;
+    }
+ 
+ }
+
+ @keyframes ballons {
+    0%,100% {
+        transform: translateY(0) ;
+    }
+
+    50% {
+        transform: translateY(-10px) ;
+    }
 }
