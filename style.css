@@ -1,5 +1,5 @@
 body {
-    background-color: #FFDEE3;
+    background-color: #FFE5EB;
     margin: 20px 30px;
     text-align: center;
 }
@@ -30,8 +30,8 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -59,7 +59,7 @@ button:nth-child(2){
 }
 
 .question{
-    color:deeppink;
+    color: #AD005A;
 }
 
 .heart {
